@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'roboto-medium';
+    src: url('Roboto-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'longhaul';
+    src: url('Longhaul.ttf') format('truetype');
+
+}
+body {
+    background-color: black;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    -ms-overflow-style: none;
+ }
+
+.main {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+ 
+::-webkit-scrollbar {
+  display: none;
+}
+
+.marquee{   
+    font-family: 'longhaul';  
+    color: white;
+    background-color: black;
+    padding-top: 0.5ch; 
+    padding-bottom: 0.3ch; 
+    font-size: 3em;
+}
+
+
+
+.description{
+    background-color: white;
+    font-family: 'roboto-light';    
+    text-align: center;
+    font-size: 2em ;
+    color: black;
+    padding-top: 3ch;
+    padding-bottom: 3ch;
+    padding-right: 3ch;
+    padding-left: 3ch;
+
+}
+
+
+.poster video{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+.archive{
+    font-family: 'longhaul';    
+    text-align: center;
+    font-size: 3em ;
+    background-color: black;
+    width: 100%;
+    padding-top: 0.5ch;
+    padding-bottom: 0.5ch;
+    margin-bottom:0px;
+}
+
+.archive a:link, a:visited{
+    text-decoration: none ! important;
+    color:aliceblue;
+}   
+    
+
+   
